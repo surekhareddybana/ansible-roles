@@ -1,4 +1,4 @@
-- name: Restart nginx #this name = notify name
+- name: restart nginx #this name = notify name
   ansible.builtin.service:
     name: nginx
     state: restarted

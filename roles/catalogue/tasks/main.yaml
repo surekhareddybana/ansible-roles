@@ -41,7 +41,7 @@
   include_role:
      name: common #this is common directory
      tasks_from: systemd.yaml
-- name: deployment
+- name: Deployment
   tags:
   - deployment
   import_role:

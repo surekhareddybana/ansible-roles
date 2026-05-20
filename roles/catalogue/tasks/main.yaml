@@ -34,4 +34,10 @@
   include_role:
      name: common #this is common directory
      tasks_from: systemd.yaml
+- name: app setup
+  tags:
+  - deployment
+  include_role:
+     name: common #this is common directory
+     tasks_from: deployment
 

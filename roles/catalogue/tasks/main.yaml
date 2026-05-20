@@ -42,8 +42,8 @@
      name: common #this is common directory
      tasks_from: systemd.yaml
 - name: Deployment
-  tags:
-  - deployment
+  # tags:
+  # - deployment
   import_role:
      name: common #this is common directory
      tasks_from: deployment

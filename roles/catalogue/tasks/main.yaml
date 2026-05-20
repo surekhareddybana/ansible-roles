@@ -44,7 +44,7 @@
 - name: Deployment
   tags:
   - deployment
-  include_role:
+  import_role:
      name: common #this is common directory
      tasks_from: deployment
 

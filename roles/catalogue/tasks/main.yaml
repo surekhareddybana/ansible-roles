@@ -28,8 +28,8 @@
 - name: print catalogue output
   ansible.builtin.debug:
     msg: "{{ catalogue_output }}"
-    ignore_errors: true
-    ignore_unreachable: true
+  ignore_errors: true
+  ignore_unreachable: true
   
 - name: load products
   ansible.builtin.shell: mongosh --host mongodb.banasurekha.shop < /app/db/master-data.js

@@ -1,3 +1,5 @@
 CATALOGUE_HOST: catalogue.banasurekha.shop
 USER_HOST: user.banasurekha.shop
 CART_HOST: user.banasurekha.shop
+SHIPPING_HOST: shipping.banasurekha.shop
+PAYMENT_HOST: payment.banasurekha.shop

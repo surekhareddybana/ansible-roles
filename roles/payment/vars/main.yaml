@@ -1,0 +1,5 @@
+CART_HOST: cart.banasurekha.shop
+USER_HOST: user.banasurekha.shop
+RABBITMQ_HOST: rabbitmq.banasurekha.shop
+RABBITMQ_USER: roboshop
+RABBITMQ_PASSWORD: roboshop123
